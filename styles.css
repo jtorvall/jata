@@ -1,0 +1,99 @@
+body {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+    margin: 0;
+    padding: 0;
+    flex-flow: row nowrap;
+    color: #eee;
+    font-family: 'Raleway', sans-serif;
+}
+
+#navigationpanel {
+    width: 250px;
+    min-width: 250px;
+    height: 100%;
+    background-color: #15003E;
+    text-align: center;
+    border-right: 2px solid #000;
+}
+
+#overviewmain {
+    width: 75%;
+    height: 100%;
+    background-color: #0F001E;
+    flex-grow: 1;
+}
+
+#musicnavpanel {
+    float: right;
+    height: 150px;
+    width: 250px;
+    min-width: 250px;
+    position: absolute;
+    bottom: 0;
+    background-color: #0F002D;
+    overflow: hidden;
+}
+
+#navigationpanel h1 {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px 0 0;
+}
+
+#navigationpanel h2 {
+    font-size: 18px;
+    margin: 0 0 25px;
+}
+
+.loginwtwitch {
+    padding: 10px 15px;
+    background: #64459B;
+    height: 25px;
+    color: #fff;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.loginwtwitch img {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+.navlist {
+    list-style-type: none;
+    padding: 0;
+    margin: 25px 0 0;
+}
+
+.navmenutop a {
+    display: block;
+    width: 100%;
+    background: #0F001E;
+    padding: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.navmenutop ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navmenu2nd a {
+    margin: 0;
+    display: block;
+    width: 100%;
+    background: #0F002D;
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+
+}
